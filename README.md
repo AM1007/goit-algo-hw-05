@@ -14,14 +14,14 @@ Compare the efficiency of the substring search algorithms: Boyer-Moore, Knuth-Mo
 
 ### Result
 
-| Substring                          | Algorithm   | Article 1 (sec) | Article 2 (sec) |
-| ---------------------------------- | ----------- | --------------- | --------------- |
-| algorithms                         | Boyer-Moore | 0.036287        | 0.062654        |
-| algorithms                         | KMP         | 0.100897        | 0.162073        |
-| algorithms                         | Rabin-Karp  | 0.342983        | 0.591275        |
-| non-existent substring to test for | Boyer-Moore | 0.018204        | 0.023793        |
-| non-existent substring to test for | KMP         | 0.110179        | 0.154399        |
-| non-existent substring to test for | Rabin-Karp  | 0.385858        | 0.550203        |
+| Substring  | Algorithm   | Article 1 (sec) | Article 2 (sec) |
+| ---------- | ----------- | --------------- | --------------- |
+| Література | Boyer-Moore | 0.053505        | 0.057251        |
+| Література | KMP         | 0.105887        | 0.155059        |
+| Література | Rabin-Karp  | 0.282676        | 0.398028        |
+| алгоритм   | Boyer-Moore | 0.000961        | 0.013094        |
+| алгоритм   | KMP         | 0.002042        | 0.029687        |
+| алгоритм   | Rabin-Karp  | 0.005457        | 0.086537        |
 
 ### Сonclusion
 
